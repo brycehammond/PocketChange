@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02BF252C15BD081300273B77 /* MainiPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BF252B15BD081300273B77 /* MainiPhoneStoryboard.storyboard */; };
+		02BF253B15BE21B800273B77 /* PCDetectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BF253A15BE21B800273B77 /* PCDetectionView.m */; };
+		02CC1F6E15BC4B37001CF8C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CC1F6D15BC4B37001CF8C5 /* UIKit.framework */; };
+		02CC1F7015BC4B37001CF8C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CC1F6F15BC4B37001CF8C5 /* Foundation.framework */; };
+		02CC1F7215BC4B37001CF8C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CC1F7115BC4B37001CF8C5 /* CoreGraphics.framework */; };
+		02CC1F7815BC4B37001CF8C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02CC1F7615BC4B37001CF8C5 /* InfoPlist.strings */; };
+		02CC1F7A15BC4B37001CF8C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CC1F7915BC4B37001CF8C5 /* main.m */; };
+		02CC1F7E15BC4B37001CF8C5 /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CC1F7D15BC4B37001CF8C5 /* PCAppDelegate.m */; };
+		02CC1F8115BC4B37001CF8C5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CC1F7F15BC4B37001CF8C5 /* MainStoryboard.storyboard */; };
+		02CC1F8415BC4B37001CF8C5 /* PCViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02CC1F8315BC4B37001CF8C5 /* PCViewController.mm */; };
+		02CC1F8F15BC50AF001CF8C5 /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CC1F8E15BC50AF001CF8C5 /* OpenCV.framework */; };
+		02CC1F9115BC50E8001CF8C5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CC1F9015BC50E8001CF8C5 /* AVFoundation.framework */; };
+		02CC1F9415BC510B001CF8C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CC1F9215BC510B001CF8C5 /* CoreMedia.framework */; };
+		02CC1F9515BC510B001CF8C5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CC1F9315BC510B001CF8C5 /* CoreVideo.framework */; };
+		02CC1F9715BC5122001CF8C5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CC1F9615BC5122001CF8C5 /* libz.dylib */; };
+		02CC1F9915BC5134001CF8C5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CC1F9815BC5134001CF8C5 /* QuartzCore.framework */; };
+		02CC1F9C15BC56C7001CF8C5 /* PCVideoProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02CC1F9B15BC56C7001CF8C5 /* PCVideoProcessor.mm */; };
+		02CC1F9E15BC572A001CF8C5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CC1F9D15BC572A001CF8C5 /* ImageIO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02BF252B15BD081300273B77 /* MainiPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainiPhoneStoryboard.storyboard; path = PocketChange/MainiPhoneStoryboard.storyboard; sourceTree = "<group>"; };
+		02BF253915BE21B800273B77 /* PCDetectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCDetectionView.h; sourceTree = "<group>"; };
+		02BF253A15BE21B800273B77 /* PCDetectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCDetectionView.m; sourceTree = "<group>"; };
+		02CC1F6915BC4B37001CF8C5 /* PocketChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CC1F6D15BC4B37001CF8C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02CC1F6F15BC4B37001CF8C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02CC1F7115BC4B37001CF8C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02CC1F7515BC4B37001CF8C5 /* PocketChange-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketChange-Info.plist"; sourceTree = "<group>"; };
+		02CC1F7715BC4B37001CF8C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02CC1F7915BC4B37001CF8C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02CC1F7B15BC4B37001CF8C5 /* PocketChange-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketChange-Prefix.pch"; sourceTree = "<group>"; };
+		02CC1F7C15BC4B37001CF8C5 /* PCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCAppDelegate.h; sourceTree = "<group>"; };
+		02CC1F7D15BC4B37001CF8C5 /* PCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCAppDelegate.m; sourceTree = "<group>"; };
+		02CC1F8015BC4B37001CF8C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		02CC1F8215BC4B37001CF8C5 /* PCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCViewController.h; sourceTree = "<group>"; };
+		02CC1F8315BC4B37001CF8C5 /* PCViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PCViewController.mm; sourceTree = "<group>"; };
+		02CC1F8E15BC50AF001CF8C5 /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenCV.framework; sourceTree = "<group>"; };
+		02CC1F9015BC50E8001CF8C5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		02CC1F9215BC510B001CF8C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		02CC1F9315BC510B001CF8C5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		02CC1F9615BC5122001CF8C5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		02CC1F9815BC5134001CF8C5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		02CC1F9A15BC56C7001CF8C5 /* PCVideoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCVideoProcessor.h; sourceTree = "<group>"; };
+		02CC1F9B15BC56C7001CF8C5 /* PCVideoProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PCVideoProcessor.mm; sourceTree = "<group>"; };
+		02CC1F9D15BC572A001CF8C5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02CC1F6615BC4B37001CF8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CC1F9E15BC572A001CF8C5 /* ImageIO.framework in Frameworks */,
+				02CC1F9915BC5134001CF8C5 /* QuartzCore.framework in Frameworks */,
+				02CC1F9715BC5122001CF8C5 /* libz.dylib in Frameworks */,
+				02CC1F9415BC510B001CF8C5 /* CoreMedia.framework in Frameworks */,
+				02CC1F9515BC510B001CF8C5 /* CoreVideo.framework in Frameworks */,
+				02CC1F9115BC50E8001CF8C5 /* AVFoundation.framework in Frameworks */,
+				02CC1F6E15BC4B37001CF8C5 /* UIKit.framework in Frameworks */,
+				02CC1F7015BC4B37001CF8C5 /* Foundation.framework in Frameworks */,
+				02CC1F7215BC4B37001CF8C5 /* CoreGraphics.framework in Frameworks */,
+				02CC1F8F15BC50AF001CF8C5 /* OpenCV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BF253D15BE21C000273B77 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				02BF252B15BD081300273B77 /* MainiPhoneStoryboard.storyboard */,
+				02CC1F7F15BC4B37001CF8C5 /* MainStoryboard.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		02CC1F5E15BC4B37001CF8C5 = {
+			isa = PBXGroup;
+			children = (
+				02BF253D15BE21C000273B77 /* Storyboards */,
+				02CC1F7315BC4B37001CF8C5 /* PocketChange */,
+				02CC1F7415BC4B37001CF8C5 /* Supporting Files */,
+				02CC1F6C15BC4B37001CF8C5 /* Frameworks */,
+				02CC1F6A15BC4B37001CF8C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02CC1F6A15BC4B37001CF8C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02CC1F6915BC4B37001CF8C5 /* PocketChange.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02CC1F6C15BC4B37001CF8C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02CC1F9D15BC572A001CF8C5 /* ImageIO.framework */,
+				02CC1F9815BC5134001CF8C5 /* QuartzCore.framework */,
+				02CC1F9615BC5122001CF8C5 /* libz.dylib */,
+				02CC1F9215BC510B001CF8C5 /* CoreMedia.framework */,
+				02CC1F9315BC510B001CF8C5 /* CoreVideo.framework */,
+				02CC1F9015BC50E8001CF8C5 /* AVFoundation.framework */,
+				02CC1F8E15BC50AF001CF8C5 /* OpenCV.framework */,
+				02CC1F6D15BC4B37001CF8C5 /* UIKit.framework */,
+				02CC1F6F15BC4B37001CF8C5 /* Foundation.framework */,
+				02CC1F7115BC4B37001CF8C5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02CC1F7315BC4B37001CF8C5 /* PocketChange */ = {
+			isa = PBXGroup;
+			children = (
+				02CC1F7C15BC4B37001CF8C5 /* PCAppDelegate.h */,
+				02CC1F7D15BC4B37001CF8C5 /* PCAppDelegate.m */,
+				02CC1F8215BC4B37001CF8C5 /* PCViewController.h */,
+				02CC1F8315BC4B37001CF8C5 /* PCViewController.mm */,
+				02CC1F9A15BC56C7001CF8C5 /* PCVideoProcessor.h */,
+				02CC1F9B15BC56C7001CF8C5 /* PCVideoProcessor.mm */,
+				02BF253915BE21B800273B77 /* PCDetectionView.h */,
+				02BF253A15BE21B800273B77 /* PCDetectionView.m */,
+			);
+			path = PocketChange;
+			sourceTree = "<group>";
+		};
+		02CC1F7415BC4B37001CF8C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02CC1F7515BC4B37001CF8C5 /* PocketChange-Info.plist */,
+				02CC1F7615BC4B37001CF8C5 /* InfoPlist.strings */,
+				02CC1F7915BC4B37001CF8C5 /* main.m */,
+				02CC1F7B15BC4B37001CF8C5 /* PocketChange-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = PocketChange;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02CC1F6815BC4B37001CF8C5 /* PocketChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CC1F8715BC4B37001CF8C5 /* Build configuration list for PBXNativeTarget "PocketChange" */;
+			buildPhases = (
+				02CC1F6515BC4B37001CF8C5 /* Sources */,
+				02CC1F6615BC4B37001CF8C5 /* Frameworks */,
+				02CC1F6715BC4B37001CF8C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketChange;
+			productName = PocketChange;
+			productReference = 02CC1F6915BC4B37001CF8C5 /* PocketChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02CC1F6015BC4B37001CF8C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Imulus, LLC";
+				TargetAttributes = {
+					02CC1F6815BC4B37001CF8C5 = {
+						DevelopmentTeam = 8MW535NRK9;
+					};
+				};
+			};
+			buildConfigurationList = 02CC1F6315BC4B37001CF8C5 /* Build configuration list for PBXProject "PocketChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02CC1F5E15BC4B37001CF8C5;
+			productRefGroup = 02CC1F6A15BC4B37001CF8C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02CC1F6815BC4B37001CF8C5 /* PocketChange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02CC1F6715BC4B37001CF8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CC1F7815BC4B37001CF8C5 /* InfoPlist.strings in Resources */,
+				02CC1F8115BC4B37001CF8C5 /* MainStoryboard.storyboard in Resources */,
+				02BF252C15BD081300273B77 /* MainiPhoneStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02CC1F6515BC4B37001CF8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CC1F7A15BC4B37001CF8C5 /* main.m in Sources */,
+				02CC1F7E15BC4B37001CF8C5 /* PCAppDelegate.m in Sources */,
+				02CC1F8415BC4B37001CF8C5 /* PCViewController.mm in Sources */,
+				02CC1F9C15BC56C7001CF8C5 /* PCVideoProcessor.mm in Sources */,
+				02BF253B15BE21B800273B77 /* PCDetectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02CC1F7615BC4B37001CF8C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CC1F7715BC4B37001CF8C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02CC1F7F15BC4B37001CF8C5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CC1F8015BC4B37001CF8C5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = PocketChange;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02CC1F8515BC4B37001CF8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		02CC1F8615BC4B37001CF8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02CC1F8815BC4B37001CF8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bryce Hammond (288P9Q3CLH)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketChange/PocketChange-Prefix.pch";
+				INFOPLIST_FILE = "PocketChange/PocketChange-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = design.fluidvision.PocketChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DD574BF2-C984-48D1-B2AF-9630E1F2BF9D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DD574BF2-C984-48D1-B2AF-9630E1F2BF9D";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02CC1F8915BC4B37001CF8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketChange/PocketChange-Prefix.pch";
+				INFOPLIST_FILE = "PocketChange/PocketChange-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = design.fluidvision.PocketChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DD574BF2-C984-48D1-B2AF-9630E1F2BF9D";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02CC1F6315BC4B37001CF8C5 /* Build configuration list for PBXProject "PocketChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CC1F8515BC4B37001CF8C5 /* Debug */,
+				02CC1F8615BC4B37001CF8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CC1F8715BC4B37001CF8C5 /* Build configuration list for PBXNativeTarget "PocketChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CC1F8815BC4B37001CF8C5 /* Debug */,
+				02CC1F8915BC4B37001CF8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02CC1F6015BC4B37001CF8C5 /* Project object */;
+}
